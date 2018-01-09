@@ -3,6 +3,7 @@
 # V1.0 (2015/04/24) by Sebastian Meyer; sebastian.t.meyer@tum.de        #
 #########################################################################
 
+#Added text for testing
 
 SubFigNumber <- function(label, place="ul", dist=0.1, dist.x=dist, dist.y=dist, abs=TRUE) {
   if (abs) {
@@ -20,7 +21,7 @@ SubFigNumber <- function(label, place="ul", dist=0.1, dist.x=dist, dist.y=dist, 
   text(X, Y, label, adj=a)
 } 
 
-######################################################
+################################################
 label takes the text to be placed
 place is given the information in which corner to place the text; valid values are
 	"upperleft" = "ul"
